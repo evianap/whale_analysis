@@ -6,10 +6,10 @@ Daily returns analysis from source csv file including performance, volatility, r
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="https://github.com/evianap/whale_analysis/blob/main/Images/Risk.jpeg" alt="Risk Analysis"" width="700" height="300">
+    <img src="https://github.com/evianap/whale_analysis/blob/main/Images/Risk.jpeg" alt="Risk Analysis"" width="600" height="300">
   </a>
 
-  <h3 align="center">whale_analysis_</h3>
+  <h3 align="center">whale_analysis</h3>
 
   <p align="center">
     Evaluating Risk of Funds
@@ -51,7 +51,7 @@ whale_df = whale_Dataframe =pd.read_csv(
 )
 whale_df.head()
 ```
-<p align="center"><img src="https://github.com/evianap/whale_analysis/blob/main/Images/Daily_Return.png" alt="series_screenshot" width="450" height="650"><p/>
+<p align="center"><img src="https://github.com/evianap/whale_analysis/blob/main/Images/Daily_Return.png" alt="series_screenshot" width="600" height="300"><p/>
 
 <p>Standard deviation for all funds is calculated<p/>
 
@@ -62,8 +62,8 @@ standard_deviation.sort_values()
 ```
 
 
-<p align="center"><img src="https://github.com/evianap/whale_analysis/blob/main/Images/Std_Dev.png" alt="screenshot_error_" width="550" height="200"><p/>
-<p align="center"><img src="https://github.com/evianap/whale_analysis/blob/main/Images/Sharpe_Ratios.png" alt="screenshot_error_" width="550" height="200"><p/>
+<p align="center"><img src="https://github.com/evianap/whale_analysis/blob/main/Images/Std_Dev.png" alt="screenshot_error_" width="600" height="300"><p/>
+<p align="center"><img src="https://github.com/evianap/whale_analysis/blob/main/Images/Sharpe_Ratios.png" alt="screenshot_error_" width="600" height="300"><p/>
 
 ### Built With
 
